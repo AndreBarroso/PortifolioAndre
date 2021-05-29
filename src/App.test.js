@@ -5,5 +5,6 @@ describe('Barra Principal de Navegação', () => {
   test('Testa se contem a lista de navegação principal', () => {
     const { getByTestId } = render(<App />)
     const mainNavigation = getByTestId('mainNav');
+    expect(mainNavigation).toBeInTheDocument();
   });
 })
