@@ -6,11 +6,12 @@ import Experience from './componentes/Experience';
 import Works from './componentes/Works';
 import Blog from './componentes/Blog';
 import Contact from './componentes/Contact';
-//import './App.css';
+import './App.css';
+import './bootstrap/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div>
+    <div className="allContent">
       <Navigation />
       <main>
         <Home />
