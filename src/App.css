@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.all {
+  display: flex;
+}
+
+.header {
+  color: #fff;
+    border-right: 1px solid hsla(0,0%,100%,.1);
+    background: #353353;
+    padding: 50px 40px 40px;
+    position: fixed;
+    left: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100vh;
+    min-height: 100vh;
+    top: 0;
+    width: 290px;
+    z-index: 1;
+    transform: translateX(0);
+    transition: all .3s ease-in-out;
+}
+
+.content {
+  background-color: blue;
+}
+
+.fotoPerfil {
+  width: 100px;
+  border-radius: 100%;
+}
