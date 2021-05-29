@@ -1,4 +1,5 @@
 import React from 'react';
+import { link } from 'react-router-dom';
 
 class Navigation extends React.Component {
   render() {
@@ -6,8 +7,8 @@ class Navigation extends React.Component {
       <nav class="navegation">
         <section>
           <ul data-testid ="mainNav listDecoration">
-            <li class="listDecoration">Home</li> 
-            <li class="listDecoration">Sobre</li>
+            <li class="listDecoration"><a href="#home">Home</a></li> 
+            <li class="listDecoration"><a href="#sobre">Sobre</a></li>
             <li class="listDecoration">Serviços</li>
             <li class="listDecoration">Experiências</li>
             <li class="listDecoration">Trabalhos</li>

@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="allContent">
       <Navigation />
-      <main>
+      <main className="grow1">
         <Home />
         <About /> 
         <Services /> 

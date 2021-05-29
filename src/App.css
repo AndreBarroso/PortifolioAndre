@@ -20,12 +20,29 @@
   width: 200px;
 }
 
+.flexRowsCenterTags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
 .flexColumsCenterTags {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   justify-items: center;
+}
+
+.flexOneItemInCenter {
+  display: flex;
+  align-items: center;
+  background-color: tomato;
+}
+
+.grow1 {
+  flex-grow: 1;
 }
 
 .allContent {
@@ -47,6 +64,32 @@ main {
 
 .home {
   background-color: tomato;
+}
+
+.sobre {
+  display: flex;
+  flex-direction: column;
+}
+
+.contentAboutMe {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color:lightblue
+}
+
+
+
+
+.title {
+  display: flex;
+  justify-content: initial;
+  background-color: khaki;
+}
+
+
+.TESTECOLOR { 
+  background-color: yellowgreen;
 }
 
 
