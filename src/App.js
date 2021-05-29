@@ -1,5 +1,11 @@
 import Navigation from './componentes/Navegation';
-import InitialContent from './componentes/InitialContent';
+import Home from './componentes/Home';
+import About from './componentes/About';
+import Services from './componentes/Services';
+import Experience from './componentes/Experience';
+import Works from './componentes/Works';
+import Blog from './componentes/Blog';
+import Contact from './componentes/Contact';
 //import './App.css';
 
 function App() {
@@ -7,7 +13,13 @@ function App() {
     <div>
       <Navigation />
       <main>
-        <InitialContent />
+        <Home />
+        <About /> 
+        <Services /> 
+        <Experience />
+        <Works /> 
+        <Blog /> 
+        <Contact /> 
       </main>
     </div>
   );

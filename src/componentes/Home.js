@@ -1,7 +1,7 @@
 import React from 'react';
 import fotoPerfil from '../img/fotoAndre.JPG';
 
-class initialContent extends React.Component {
+class Home extends React.Component {
   render() {
     return (
       <div >
@@ -10,4 +10,4 @@ class initialContent extends React.Component {
     )
   }
 }
-export default initialContent;
+export default Home;
