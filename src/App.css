@@ -2,6 +2,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
   color: white;
 }
 
@@ -20,76 +24,73 @@
   width: 200px;
 }
 
-.flexRowsCenterTags {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-items: center;
-}
-
-.flexColumsCenterTags {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  justify-items: center;
-}
-
-.flexOneItemInCenter {
-  display: flex;
-  align-items: center;
-  background-color: tomato;
-}
-
 .grow1 {
   flex-grow: 1;
 }
 
 .allContent {
   display: flex;
-  background-color: #353353;
 }
 
 .allHightScreen {
   height: 100vh;
 }
 
+.flexRowAlign {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.flexColumunAlign {
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  align-items: center;
+  text-align: center;
+}
+
 .navegation {
-  background-color: blue;
+  position: fixed;
+  left: 0;
+  background-color:tomato;
+  width: 287px;
+  height: 100vh;
+  overflow-y: scroll;
+  background-color: #353353;
+  color: white;
 }
 
 main {
-  flex-grow: 1;
+  position: absolute;
+  left: 287px;
 }
 
 .home {
-  background-color: tomato;
-}
-
-.sobre {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  background-color: #353353;
+  color: white;
 }
 
-.contentAboutMe {
+.about {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  background-color:lightblue
+  padding-top: 80px;
+  color: #454360;
+  background-color: #f9f9ff
 }
 
-
-
-
-.title {
-  display: flex;
-  justify-content: initial;
-  background-color: khaki;
+.contenAbout {
+  margin-top: -150px;
 }
 
-
-.TESTECOLOR { 
-  background-color: yellowgreen;
+.about .aboutMe {
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 5px 20px 0 rgba(69,67,96,.1);
 }
-
-

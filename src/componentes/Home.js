@@ -6,8 +6,8 @@ import fotoPerfil from '../img/fotoAndre.JPG';
 class Home extends React.Component {
   render() {
     return (
-      <section id="home" class="home allHightScreen flexColumsCenterTags">
-        <figure htmlFor="fotoPerfil" className="flexColumsCenterTags">
+      <section id="home" class="allHightScreen home ">
+        <figure htmlFor="fotoPerfil" className="flexColumunAlign">
           <img src={fotoPerfil} alt="fotoPerfil" class="circleImgs" width="100" id="fotoPerfil"/>
           <legend>André Barroso</legend>
         </figure>
